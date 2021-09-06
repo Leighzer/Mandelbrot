@@ -1,9 +1,6 @@
 float zoom = 1;
 int numberOfIterations = 10000;
 
-
-
-
 void setup(){
   size(1800, 1000);
 }
@@ -11,7 +8,6 @@ void setup(){
 void draw(){
   for(int i = 0; i < width; i++){
      for(int j = 0; j < height; j++){
-       
        float realValue = 0;
        float imaginaryValue = 0;
        
@@ -27,7 +23,6 @@ void draw(){
         }
         
         drawRedPoint(300,200);
-        
      }
   }
 }
